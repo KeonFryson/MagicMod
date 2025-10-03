@@ -1,7 +1,10 @@
 package com.chaos.magicmod;
 
+import com.chaos.magicmod.command.SetManaCommand;
 import com.chaos.magicmod.item.ModCreativeModeTabs;
 import com.chaos.magicmod.item.ModItems;
+import com.mojang.brigadier.CommandDispatcher;
+import net.minecraft.commands.CommandSourceStack;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -15,6 +18,7 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
+import org.slf4j.LoggerFactory;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(MagicMod.MODID)
@@ -22,7 +26,7 @@ public class MagicMod {
     // Define mod id in a common place for everything to reference
     public static final String MODID = "magicmod";
     // Directly reference a slf4j logger
-    public static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LoggerFactory.getLogger(MagicMod.class);
 
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
@@ -39,6 +43,7 @@ public class MagicMod {
 
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
+
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -59,6 +64,7 @@ public class MagicMod {
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
-
+        CommandDispatcher<CommandSourceStack> dispatcher = event.getServer().getCommands().getDispatcher();
+        SetManaCommand.register(dispatcher);
     }
 }
