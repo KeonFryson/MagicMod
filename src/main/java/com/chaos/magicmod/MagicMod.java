@@ -1,5 +1,6 @@
 package com.chaos.magicmod;
 
+import com.chaos.magicmod.block.ModBlocks;
 import com.chaos.magicmod.command.SetManaCommand;
 import com.chaos.magicmod.item.ModCreativeModeTabs;
 import com.chaos.magicmod.item.ModItems;
@@ -43,7 +44,7 @@ public class MagicMod {
 
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
-
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -67,4 +68,5 @@ public class MagicMod {
         CommandDispatcher<CommandSourceStack> dispatcher = event.getServer().getCommands().getDispatcher();
         SetManaCommand.register(dispatcher);
     }
+
 }

@@ -22,19 +22,43 @@ import net.minecraft.world.phys.EntityHitResult;
 import net.minecraft.world.phys.HitResult;
 import org.jetbrains.annotations.NotNull;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class WandItem extends Item {
 
-    private final ISpell spell = new DamageBeamSpell();
+    private final List<ISpell> spells;
+    private int selectedSpellIndex = 0;
 
     public WandItem(Properties properties) {
         super(properties);
+        spells = new ArrayList<>();
+        spells.add(new DamageBeamSpell());
+        spells.add(new LightningSpell());
     }
 
-    public ISpell getSpell(){
-        return spell;
+    public List<ISpell> getSpells() {
+        return spells;
     }
 
+    public ISpell getSelectedSpell() {
+        if (spells.isEmpty()) return null;
+        return spells.get(selectedSpellIndex);
+    }
 
+    public int getSelectedSpellIndex() {
+        return selectedSpellIndex;
+    }
+
+    public void setSelectedSpellIndex(int index) {
+        if (index >= 0 && index < spells.size()) {
+            selectedSpellIndex = index;
+        }
+    }
+
+    public void cycleSpell() {
+        selectedSpellIndex = (selectedSpellIndex + 1) % spells.size();
+    }
 
 
     @Override
@@ -48,6 +72,9 @@ public class WandItem extends Item {
                 MagicMod.LOGGER.debug("No mana capability found for player: {}", pPlayer.getName().getString());
                 return InteractionResultHolder.fail(stack);
             }
+            ISpell spell = getSelectedSpell();
+            if (spell == null) return InteractionResultHolder.fail(stack);
+
             int manaCost = spell.getManaCost();
             MagicMod.LOGGER.debug("Player {} mana before: {}/{}", pPlayer.getName().getString(), mana.getMana(), mana.getMaxMana());
             if (!mana.consume(manaCost)) {
@@ -57,12 +84,11 @@ public class WandItem extends Item {
             }
             MagicMod.LOGGER.debug("Player {} mana after: {}/{}", pPlayer.getName().getString(), mana.getMana(), mana.getMaxMana());
 
-// Sync to WorldManaData
+            // Sync to WorldManaData
             if (pLevel instanceof ServerLevel serverLevel) {
                 WorldManaData data = WorldManaData.get(serverLevel);
                 data.setMana(pPlayer.getUUID(), mana.getMana());
             }
-
 
             // Raycast for entity
             double reach = 40.0D;
@@ -82,9 +108,9 @@ public class WandItem extends Item {
 
         return InteractionResultHolder.success(stack);
     }
+
     // Raycast from player's eyes to hit an entity (ignoring the player)
     private EntityHitResult raycastEntity(Level level, Player player, double reach) {
-        // Start and end points of the ray
         var eyePos = player.getEyePosition();
         var lookVec = player.getLookAngle();
         var endPos = eyePos.add(lookVec.x * reach, lookVec.y * reach, lookVec.z * reach);

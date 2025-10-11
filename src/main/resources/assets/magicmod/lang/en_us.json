@@ -1,5 +1,9 @@
 {
   "item.magicmod.wand": "Wand",
+  "item.magicmod.bismuth": "Bismuth",
+  "item.magicmod.raw_bismuth": "Raw Bismuth",
+  "block.magicmod.bismuth_block": "Block of Bismuth",
+  "block.magicmod.bismuth_ore": "Bismuth Ore",
 
   "creativetab.magicmod.magic_mod": "Magic Mod"
 }

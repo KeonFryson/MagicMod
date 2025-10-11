@@ -1,6 +1,7 @@
 package com.chaos.magicmod.item;
 
 import com.chaos.magicmod.MagicMod;
+import com.chaos.magicmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,6 +20,10 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.magicmod.magic_mod"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.WAND);
+                        output.accept(ModItems.RAW_BISMUTH);
+                        output.accept(ModItems.BISMUTH);
+                        output.accept(ModBlocks.BISMUTH_BLOCK);
+                        output.accept(ModBlocks.BISMUTH_ORE);
                     }).build());
 
 

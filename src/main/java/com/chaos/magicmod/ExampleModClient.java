@@ -27,5 +27,6 @@ public class ExampleModClient {
         // Some client setup code
         MagicMod.LOGGER.info("HELLO FROM CLIENT SETUP");
         MagicMod.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+
     }
 }
