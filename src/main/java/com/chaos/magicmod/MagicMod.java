@@ -2,10 +2,13 @@ package com.chaos.magicmod;
 
 import com.chaos.magicmod.block.ModBlocks;
 import com.chaos.magicmod.command.SetManaCommand;
+import com.chaos.magicmod.effect.ModEffects;
 import com.chaos.magicmod.item.ModCreativeModeTabs;
 import com.chaos.magicmod.item.ModItems;
+import com.chaos.magicmod.potion.ModPotions;
 import com.mojang.brigadier.CommandDispatcher;
 import net.minecraft.commands.CommandSourceStack;
+import net.minecraft.world.effect.MobEffect;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -45,6 +48,10 @@ public class MagicMod {
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModEffects.register(modEventBus);
+
+        ModPotions.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

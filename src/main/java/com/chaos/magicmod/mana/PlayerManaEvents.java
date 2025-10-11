@@ -51,8 +51,8 @@ public class PlayerManaEvents {
                 MagicMod.LOGGER.debug("Loaded mana {}/{} for player {}", mana.getMana(), mana.getMaxMana(), player.getName().getString());
             } else {
                 // If not loaded, set to max
-                mana.setMaxMana(100);
-                mana.setMana(100);
+                mana.setMaxMana(mana.getMaxMana());
+                mana.setMana(mana.getMana());
                 MagicMod.LOGGER.debug("No saved mana found, set to default {}/{} for player {}", mana.getMana(), mana.getMaxMana(), player.getName().getString());
             }
         }

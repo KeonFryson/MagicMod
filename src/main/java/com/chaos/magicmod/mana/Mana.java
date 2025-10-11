@@ -12,7 +12,7 @@ public class Mana implements IMana, INBTSerializable{
     private int maxMana;
 
     public Mana() {
-        this.maxMana = 100;
+        this.maxMana = 400;
         this.mana = maxMana;
         //MagicMod.LOGGER.debug("Mana capability constructed: {}/{}", this.mana, this.maxMana);
     }

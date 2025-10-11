@@ -4,6 +4,11 @@
   "item.magicmod.raw_bismuth": "Raw Bismuth",
   "block.magicmod.bismuth_block": "Block of Bismuth",
   "block.magicmod.bismuth_ore": "Bismuth Ore",
+  "effect.magicmod.mana": "Mana",
+
+  "item.minecraft.potion.effect.mana_potion": "Mana Potion",
+  "item.minecraft.splash_potion.effect.mana_potion": "Mana Splash Potion",
+  "item.minecraft.lingering_potion.effect.mana_potion": "Mana Lingering Potion",
 
   "creativetab.magicmod.magic_mod": "Magic Mod"
 }

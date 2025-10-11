@@ -16,6 +16,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.EntityHitResult;
@@ -60,6 +61,14 @@ public class WandItem extends Item {
         selectedSpellIndex = (selectedSpellIndex + 1) % spells.size();
     }
 
+    @Override
+    public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+        tooltipComponents.add(Component.literal("Spells:"));
+        for (ISpell spell : getSpells()) {
+            tooltipComponents.add(Component.literal(" - " + spell.getName() + " (" + spell.getManaCost() + " Mana)"));
+        }
+        super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+    }
 
     @Override
     public @NotNull InteractionResultHolder<ItemStack> use(Level pLevel, @NotNull Player pPlayer, @NotNull InteractionHand pUsedHand) {

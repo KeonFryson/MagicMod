@@ -27,7 +27,7 @@ public class DamageBeamSpell implements ISpell{
     public void cast(Level level, Player player, Vec3 pos) {
         if (level.isClientSide) return;
 
-        Vec3 start = player.getEyePosition();
+        Vec3 start = player.getEyePosition().add(player.getLookAngle().scale(1.0));
         Vec3 direction = player.getLookAngle();
         double maxDistance = 20.0;
         Vec3 end = start.add(direction.scale(maxDistance));
