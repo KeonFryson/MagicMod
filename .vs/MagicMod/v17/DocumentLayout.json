@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\client\\KeyBindings.java||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main\\java\\com\\chaos\\magicmod\\client\\KeyBindings.java||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\spell\\DamageBeamSpell.java||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main\\java\\com\\chaos\\magicmod\\spell\\DamageBeamSpell.java||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\item\\custom\\WandItem.java||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main\\java\\com\\chaos\\magicmod\\item\\custom\\WandItem.java||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\spell\\ISpell.java||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main\\java\\com\\chaos\\magicmod\\spell\\ISpell.java||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\event\\ModEvents.java||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main\\java\\com\\chaos\\magicmod\\event\\ModEvents.java||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\effect\\ModEffects.java||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main\\java\\com\\chaos\\magicmod\\effect\\ModEffects.java||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\effect\\ManaEffect.java||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main\\java\\com\\chaos\\magicmod\\effect\\ManaEffect.java||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\client\\screens\\SpellOverlay.java||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main\\java\\com\\chaos\\magicmod\\client\\screens\\SpellOverlay.java||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\client\\screens\\ManaOverlay.java||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main\\java\\com\\chaos\\magicmod\\client\\screens\\ManaOverlay.java||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\ExampleModClient.java||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main\\java\\com\\chaos\\magicmod\\ExampleModClient.java||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\spell\\ISpell.java||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main\\java\\com\\chaos\\magicmod\\spell\\ISpell.java||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\spell\\LightningSpell.java||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -25,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\MagicMod.java||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main\\java\\com\\chaos\\magicmod\\MagicMod.java||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\client\\screens\\ManaOverlay.java||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main\\java\\com\\chaos\\magicmod\\client\\screens\\ManaOverlay.java||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\mana\\PlayerManaEvents.java||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -62,84 +86,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ISpell.java",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\spell\\ISpell.java",
-              "RelativeDocumentMoniker": "src\\main\\java\\com\\chaos\\magicmod\\spell\\ISpell.java",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\spell\\ISpell.java",
-              "RelativeToolTip": "src\\main\\java\\com\\chaos\\magicmod\\spell\\ISpell.java",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "DamageBeamSpell.java",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\spell\\DamageBeamSpell.java",
+              "RelativeDocumentMoniker": "src\\main\\java\\com\\chaos\\magicmod\\spell\\DamageBeamSpell.java",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\spell\\DamageBeamSpell.java",
+              "RelativeToolTip": "src\\main\\java\\com\\chaos\\magicmod\\spell\\DamageBeamSpell.java",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAC4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
-              "WhenOpened": "2025-10-03T22:41:52.006Z"
+              "WhenOpened": "2025-10-11T10:50:35.859Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "LightningSpell.java",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\spell\\LightningSpell.java",
-              "RelativeDocumentMoniker": "src\\main\\java\\com\\chaos\\magicmod\\spell\\LightningSpell.java",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\spell\\LightningSpell.java",
-              "RelativeToolTip": "src\\main\\java\\com\\chaos\\magicmod\\spell\\LightningSpell.java",
+              "Title": "ModEvents.java",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\event\\ModEvents.java",
+              "RelativeDocumentMoniker": "src\\main\\java\\com\\chaos\\magicmod\\event\\ModEvents.java",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\event\\ModEvents.java",
+              "RelativeToolTip": "src\\main\\java\\com\\chaos\\magicmod\\event\\ModEvents.java",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
-              "WhenOpened": "2025-10-03T22:07:55.194Z"
+              "WhenOpened": "2025-10-11T10:41:24.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ModEffects.java",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\effect\\ModEffects.java",
+              "RelativeDocumentMoniker": "src\\main\\java\\com\\chaos\\magicmod\\effect\\ModEffects.java",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\effect\\ModEffects.java",
+              "RelativeToolTip": "src\\main\\java\\com\\chaos\\magicmod\\effect\\ModEffects.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
+              "WhenOpened": "2025-10-11T10:16:56.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManaEffect.java",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\effect\\ManaEffect.java",
+              "RelativeDocumentMoniker": "src\\main\\java\\com\\chaos\\magicmod\\effect\\ManaEffect.java",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\effect\\ManaEffect.java",
+              "RelativeToolTip": "src\\main\\java\\com\\chaos\\magicmod\\effect\\ManaEffect.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
+              "WhenOpened": "2025-10-11T10:08:07.287Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WandItem.java",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\item\\custom\\WandItem.java",
-              "RelativeDocumentMoniker": "src\\main\\java\\com\\chaos\\magicmod\\item\\custom\\WandItem.java",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\item\\custom\\WandItem.java",
-              "RelativeToolTip": "src\\main\\java\\com\\chaos\\magicmod\\item\\custom\\WandItem.java",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Title": "KeyBindings.java",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\client\\KeyBindings.java",
+              "RelativeDocumentMoniker": "src\\main\\java\\com\\chaos\\magicmod\\client\\KeyBindings.java",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\client\\KeyBindings.java",
+              "RelativeToolTip": "src\\main\\java\\com\\chaos\\magicmod\\client\\KeyBindings.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
-              "WhenOpened": "2025-10-03T21:51:08.291Z",
+              "WhenOpened": "2025-10-11T08:25:23.456Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SpellOverlay.java",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\client\\screens\\SpellOverlay.java",
-              "RelativeDocumentMoniker": "src\\main\\java\\com\\chaos\\magicmod\\client\\screens\\SpellOverlay.java",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\client\\screens\\SpellOverlay.java",
-              "RelativeToolTip": "src\\main\\java\\com\\chaos\\magicmod\\client\\screens\\SpellOverlay.java",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Title": "WandItem.java",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\item\\custom\\WandItem.java",
+              "RelativeDocumentMoniker": "src\\main\\java\\com\\chaos\\magicmod\\item\\custom\\WandItem.java",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\item\\custom\\WandItem.java",
+              "RelativeToolTip": "src\\main\\java\\com\\chaos\\magicmod\\item\\custom\\WandItem.java",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
-              "WhenOpened": "2025-10-03T21:00:36.32Z"
+              "WhenOpened": "2025-10-03T21:51:08.291Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WorldManaData.java",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\mana\\WorldManaData.java",
-              "RelativeDocumentMoniker": "src\\main\\java\\com\\chaos\\magicmod\\mana\\WorldManaData.java",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\mana\\WorldManaData.java",
-              "RelativeToolTip": "src\\main\\java\\com\\chaos\\magicmod\\mana\\WorldManaData.java",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "ExampleModClient.java",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\ExampleModClient.java",
+              "RelativeDocumentMoniker": "src\\main\\java\\com\\chaos\\magicmod\\ExampleModClient.java",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\ExampleModClient.java",
+              "RelativeToolTip": "src\\main\\java\\com\\chaos\\magicmod\\ExampleModClient.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
-              "WhenOpened": "2025-10-03T05:21:09.416Z"
+              "WhenOpened": "2025-10-11T08:18:50.696Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MagicMod.java",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\MagicMod.java",
-              "RelativeDocumentMoniker": "src\\main\\java\\com\\chaos\\magicmod\\MagicMod.java",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\MagicMod.java",
-              "RelativeToolTip": "src\\main\\java\\com\\chaos\\magicmod\\MagicMod.java",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
-              "WhenOpened": "2025-10-03T05:11:19.29Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ManaOverlay.java",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\client\\screens\\ManaOverlay.java",
               "RelativeDocumentMoniker": "src\\main\\java\\com\\chaos\\magicmod\\client\\screens\\ManaOverlay.java",
@@ -151,7 +188,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
+              "Title": "SpellOverlay.java",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\client\\screens\\SpellOverlay.java",
+              "RelativeDocumentMoniker": "src\\main\\java\\com\\chaos\\magicmod\\client\\screens\\SpellOverlay.java",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\client\\screens\\SpellOverlay.java",
+              "RelativeToolTip": "src\\main\\java\\com\\chaos\\magicmod\\client\\screens\\SpellOverlay.java",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
+              "WhenOpened": "2025-10-03T21:00:36.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LightningSpell.java",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\spell\\LightningSpell.java",
+              "RelativeDocumentMoniker": "src\\main\\java\\com\\chaos\\magicmod\\spell\\LightningSpell.java",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\spell\\LightningSpell.java",
+              "RelativeToolTip": "src\\main\\java\\com\\chaos\\magicmod\\spell\\LightningSpell.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
+              "WhenOpened": "2025-10-03T22:07:55.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ISpell.java",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\spell\\ISpell.java",
+              "RelativeDocumentMoniker": "src\\main\\java\\com\\chaos\\magicmod\\spell\\ISpell.java",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\spell\\ISpell.java",
+              "RelativeToolTip": "src\\main\\java\\com\\chaos\\magicmod\\spell\\ISpell.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
+              "WhenOpened": "2025-10-03T22:41:52.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WorldManaData.java",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\mana\\WorldManaData.java",
+              "RelativeDocumentMoniker": "src\\main\\java\\com\\chaos\\magicmod\\mana\\WorldManaData.java",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\mana\\WorldManaData.java",
+              "RelativeToolTip": "src\\main\\java\\com\\chaos\\magicmod\\mana\\WorldManaData.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
+              "WhenOpened": "2025-10-03T05:21:09.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MagicMod.java",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\MagicMod.java",
+              "RelativeDocumentMoniker": "src\\main\\java\\com\\chaos\\magicmod\\MagicMod.java",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\MagicMod.java",
+              "RelativeToolTip": "src\\main\\java\\com\\chaos\\magicmod\\MagicMod.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
+              "WhenOpened": "2025-10-03T05:11:19.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "PlayerManaEvents.java",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\mana\\PlayerManaEvents.java",
               "RelativeDocumentMoniker": "src\\main\\java\\com\\chaos\\magicmod\\mana\\PlayerManaEvents.java",
@@ -163,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "ModCapabilities.java",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\mana\\ModCapabilities.java",
               "RelativeDocumentMoniker": "src\\main\\java\\com\\chaos\\magicmod\\mana\\ModCapabilities.java",
@@ -175,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "ManaProvider.java",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\mana\\ManaProvider.java",
               "RelativeDocumentMoniker": "src\\main\\java\\com\\chaos\\magicmod\\mana\\ManaProvider.java",
@@ -187,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "Mana.java",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\mana\\Mana.java",
               "RelativeDocumentMoniker": "src\\main\\java\\com\\chaos\\magicmod\\mana\\Mana.java",
@@ -199,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "IMana.java",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\mana\\IMana.java",
               "RelativeDocumentMoniker": "src\\main\\java\\com\\chaos\\magicmod\\mana\\IMana.java",
@@ -211,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "CapabilityRegistration.java",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\MagicMod\\src\\main\\java\\com\\chaos\\magicmod\\mana\\CapabilityRegistration.java",
               "RelativeDocumentMoniker": "src\\main\\java\\com\\chaos\\magicmod\\mana\\CapabilityRegistration.java",

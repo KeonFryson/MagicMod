@@ -1,14 +1,22 @@
 package com.chaos.magicmod;
 
 import com.chaos.magicmod.block.ModBlocks;
+import com.chaos.magicmod.block.entity.ModBlockEntities;
+import com.chaos.magicmod.block.entity.renderer.PedestalBlockEntityRenderer;
 import com.chaos.magicmod.command.SetManaCommand;
 import com.chaos.magicmod.effect.ModEffects;
 import com.chaos.magicmod.item.ModCreativeModeTabs;
 import com.chaos.magicmod.item.ModItems;
 import com.chaos.magicmod.potion.ModPotions;
+import com.chaos.magicmod.screen.ModMenuTypes;
+import com.chaos.magicmod.screen.custom.PedestalScreen;
 import com.mojang.brigadier.CommandDispatcher;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.world.effect.MobEffect;
+import net.neoforged.api.distmarker.Dist;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.neoforge.client.event.EntityRenderersEvent;
+import net.neoforged.neoforge.client.event.RegisterMenuScreensEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -52,7 +60,10 @@ public class MagicMod {
         ModEffects.register(modEventBus);
 
         ModPotions.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
 
+
+        ModMenuTypes.register(modEventBus);
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -76,4 +87,17 @@ public class MagicMod {
         SetManaCommand.register(dispatcher);
     }
 
+    @EventBusSubscriber(modid = MODID, value = Dist.CLIENT)
+    public static class ClientModEvents {
+
+        @SubscribeEvent
+        public static void registerBER(EntityRenderersEvent.RegisterRenderers event) {
+            event.registerBlockEntityRenderer(ModBlockEntities.PEDESTAL_BE.get(), PedestalBlockEntityRenderer::new);
+        }
+
+        @SubscribeEvent
+        public static void registerScreens(RegisterMenuScreensEvent event) {
+            event.register(ModMenuTypes.PEDESTAL_MENU.get(), PedestalScreen::new);
+        }
+    }
 }

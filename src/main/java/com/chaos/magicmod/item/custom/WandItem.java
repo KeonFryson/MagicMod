@@ -8,6 +8,9 @@ import com.chaos.magicmod.spell.DamageBeamSpell;
 import com.chaos.magicmod.spell.ISpell;
 import com.chaos.magicmod.spell.LightningSpell;
 import net.minecraft.core.BlockPos;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.nbt.ListTag;
+import net.minecraft.nbt.StringTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.InteractionHand;
@@ -142,5 +145,45 @@ public class WandItem extends Item {
             }
         }
         return closestResult;
+    }
+
+    public boolean addSpell(ISpell spell) {
+        if (!spells.contains(spell)) {
+            spells.add(spell);
+            return true;
+        }
+        return false;
+    }
+
+    // Remove a spell from the wand
+    public boolean removeSpell(ISpell spell) {
+        return spells.remove(spell);
+    }
+
+    public CompoundTag serializeNBT() {
+        CompoundTag tag = new CompoundTag();
+        ListTag spellList = new ListTag();
+        for (ISpell spell : spells) {
+            // Use a unique identifier for each spell, e.g., class name or registry name
+            spellList.add(StringTag.valueOf(spell.getClass().getName()));
+        }
+        tag.put("Spells", spellList);
+        return tag;
+    }
+
+    public void deserializeNBT(CompoundTag tag) {
+        spells.clear();
+        ListTag spellList = tag.getList("Spells", net.minecraft.nbt.Tag.TAG_STRING);
+        for (int i = 0; i < spellList.size(); i++) {
+            String className = spellList.getString(i);
+            try {
+                Class<?> clazz = Class.forName(className);
+                if (ISpell.class.isAssignableFrom(clazz)) {
+                    spells.add((ISpell) clazz.getDeclaredConstructor().newInstance());
+                }
+            } catch (Exception e) {
+                // Handle missing or invalid spell classes gracefully
+            }
+        }
     }
 }

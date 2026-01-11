@@ -1,6 +1,7 @@
 package com.chaos.magicmod.block;
 
 import com.chaos.magicmod.MagicMod;
+import com.chaos.magicmod.block.custom.PedestalBlock;
 import com.chaos.magicmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -26,6 +27,11 @@ public class ModBlocks {
     public static final DeferredBlock<Block> BISMUTH_ORE = registerBlock("bismuth_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 4),
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+
+
+    public static final DeferredBlock<Block> PEDESTAL = registerBlock("pedestal",
+            () -> new PedestalBlock(BlockBehaviour.Properties.of().noOcclusion()));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

@@ -9,6 +9,6 @@
   "item.minecraft.potion.effect.mana_potion": "Mana Potion",
   "item.minecraft.splash_potion.effect.mana_potion": "Mana Splash Potion",
   "item.minecraft.lingering_potion.effect.mana_potion": "Mana Lingering Potion",
-
+  "block.magicmod.pedestal": "Pedestal",
   "creativetab.magicmod.magic_mod": "Magic Mod"
 }

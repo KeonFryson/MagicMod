@@ -24,6 +24,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.BISMUTH);
                         output.accept(ModBlocks.BISMUTH_BLOCK);
                         output.accept(ModBlocks.BISMUTH_ORE);
+                        output.accept(ModBlocks.PEDESTAL);
                     }).build());
 
 

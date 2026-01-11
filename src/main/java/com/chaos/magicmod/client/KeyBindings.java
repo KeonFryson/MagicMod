@@ -19,15 +19,29 @@ public class KeyBindings {
             GLFW.GLFW_KEY_R,
             "key.categories.magicmod"
     );
+    public static final KeyMapping OPEN_SPELL_GUI = new KeyMapping(
+            "key.magicmod.open_spell_gui",
+            GLFW.GLFW_KEY_L,
+            "key.categories.magicmod"
+    );
 
     @SubscribeEvent
     public static void onKeyInput(InputEvent.Key event) {
+        Minecraft mc = Minecraft.getInstance();
+        LocalPlayer player = mc.player;
+
+        // Cycle spell (existing)
         if (CYCLE_SPELL.consumeClick()) {
-            Minecraft mc = Minecraft.getInstance();
-            LocalPlayer player = mc.player;
             if (player != null && player.getMainHandItem().getItem() == ModItems.WAND.get()) {
                 WandItem wand = (WandItem) player.getMainHandItem().getItem();
                 wand.cycleSpell();
+            }
+        }
+
+        // Open spell GUI (new)
+        if (OPEN_SPELL_GUI.consumeClick()) {
+            if (player != null && player.getMainHandItem().getItem() == ModItems.WAND.get()) {
+                mc.setScreen(new com.chaos.magicmod.client.screens.WandSpellScreen(player.getMainHandItem()));
             }
         }
     }

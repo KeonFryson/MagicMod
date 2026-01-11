@@ -7,9 +7,10 @@
     "\\src\\main\\java\\com",
     "\\src\\main\\java\\com\\chaos",
     "\\src\\main\\java\\com\\chaos\\magicmod",
-    "\\src\\main\\java\\com\\chaos\\magicmod\\item",
-    "\\src\\main\\java\\com\\chaos\\magicmod\\item\\custom",
-    "\\src\\main\\java\\com\\chaos\\magicmod\\spell"
+    "\\src\\main\\java\\com\\chaos\\magicmod\\command",
+    "\\src\\main\\java\\com\\chaos\\magicmod\\effect",
+    "\\src\\main\\java\\com\\chaos\\magicmod\\event"
   ],
+  "SelectedNode": "\\src\\main\\java\\com\\chaos\\magicmod\\client\\KeyBindings.java",
   "PreviewInSolutionExplorer": false
 }
